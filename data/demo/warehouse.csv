@@ -1,0 +1,4 @@
+warehouse_id,name,region,lifecycle_state,created_at
+WH-001,Distribution Center 01,South,active,2025-01-01T00:00:00Z
+WH-002,Distribution Center 02,North,active,2025-01-01T00:00:00Z
+WH-003,Distribution Center 03,East,active,2025-01-01T00:00:00Z

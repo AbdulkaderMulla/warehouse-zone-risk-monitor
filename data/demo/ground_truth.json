@@ -1,0 +1,332 @@
+[
+  {
+    "truth_id": "GT-000001",
+    "scenario_id": "TEMP-001",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-004-TEMP-01-20261022T180000Z",
+    "issue_type": "temperature_excursion",
+    "expected_decision": "raise_temperature_alarm_and_identify_overlapping_lots",
+    "expected_severity": "high",
+    "rationale": "Reading is outside the active storage requirement; at least two consecutive samples are injected."
+  },
+  {
+    "truth_id": "GT-000002",
+    "scenario_id": "TEMP-002",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-003-003-TEMP-01-20261022T181500Z",
+    "issue_type": "temperature_excursion",
+    "expected_decision": "raise_temperature_alarm_and_identify_overlapping_lots",
+    "expected_severity": "critical",
+    "rationale": "Reading is outside the active storage requirement; at least two consecutive samples are injected."
+  },
+  {
+    "truth_id": "GT-000003",
+    "scenario_id": "TEMP-003",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-002-004-TEMP-01-20261022T183000Z",
+    "issue_type": "temperature_excursion",
+    "expected_decision": "raise_temperature_alarm_and_identify_overlapping_lots",
+    "expected_severity": "high",
+    "rationale": "Reading is outside the active storage requirement; at least two consecutive samples are injected."
+  },
+  {
+    "truth_id": "GT-000004",
+    "scenario_id": "TEMP-004",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-002-001-TEMP-01-20261022T184500Z",
+    "issue_type": "temperature_excursion",
+    "expected_decision": "raise_temperature_alarm_and_identify_overlapping_lots",
+    "expected_severity": "critical",
+    "rationale": "Reading is outside the active storage requirement; at least two consecutive samples are injected."
+  },
+  {
+    "truth_id": "GT-000005",
+    "scenario_id": "TEMP-005",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-003-004-TEMP-01-20261022T190000Z",
+    "issue_type": "temperature_excursion",
+    "expected_decision": "raise_temperature_alarm_and_identify_overlapping_lots",
+    "expected_severity": "high",
+    "rationale": "Reading is outside the active storage requirement; at least two consecutive samples are injected."
+  },
+  {
+    "truth_id": "GT-000006",
+    "scenario_id": "HUM-001",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-002-HUMIDITY-01-20261022T180000Z",
+    "issue_type": "humidity_excursion",
+    "expected_decision": "raise_humidity_alarm_and_identify_overlapping_lots",
+    "expected_severity": "high",
+    "rationale": "Reading is outside the active humidity requirement; two adjacent samples are injected."
+  },
+  {
+    "truth_id": "GT-000007",
+    "scenario_id": "HUM-002",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-003-001-HUMIDITY-01-20261022T181500Z",
+    "issue_type": "humidity_excursion",
+    "expected_decision": "raise_humidity_alarm_and_identify_overlapping_lots",
+    "expected_severity": "high",
+    "rationale": "Reading is outside the active humidity requirement; two adjacent samples are injected."
+  },
+  {
+    "truth_id": "GT-000008",
+    "scenario_id": "HUM-003",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-004-HUMIDITY-01-20261022T183000Z",
+    "issue_type": "humidity_excursion",
+    "expected_decision": "raise_humidity_alarm_and_identify_overlapping_lots",
+    "expected_severity": "high",
+    "rationale": "Reading is outside the active humidity requirement; two adjacent samples are injected."
+  },
+  {
+    "truth_id": "GT-000009",
+    "scenario_id": "HUM-004",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-003-003-HUMIDITY-01-20261022T184500Z",
+    "issue_type": "humidity_excursion",
+    "expected_decision": "raise_humidity_alarm_and_identify_overlapping_lots",
+    "expected_severity": "high",
+    "rationale": "Reading is outside the active humidity requirement; two adjacent samples are injected."
+  },
+  {
+    "truth_id": "GT-000010",
+    "scenario_id": "TEMP-BOUNDARY-001",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-003-TEMP-01-20261022T220000Z",
+    "issue_type": "temperature_threshold_boundary",
+    "expected_decision": "do_not_alert_at_exact_threshold",
+    "expected_severity": null,
+    "rationale": "Temperature equals the product maximum; the rule is strictly greater-than."
+  },
+  {
+    "truth_id": "GT-000011",
+    "scenario_id": "HUM-BOUNDARY-001",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-001-HUMIDITY-01-20261022T221500Z",
+    "issue_type": "humidity_threshold_boundary",
+    "expected_decision": "do_not_alert_at_exact_threshold",
+    "expected_severity": null,
+    "rationale": "Humidity equals the product maximum; the rule is strictly greater-than."
+  },
+  {
+    "truth_id": "GT-000012",
+    "scenario_id": "TEMP-BOUNDARY-002",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-002-002-TEMP-01-20261022T223000Z",
+    "issue_type": "temperature_threshold_boundary",
+    "expected_decision": "do_not_alert_at_exact_threshold",
+    "expected_severity": null,
+    "rationale": "Temperature equals the product maximum; the rule is strictly greater-than."
+  },
+  {
+    "truth_id": "GT-000013",
+    "scenario_id": "HUM-BOUNDARY-002",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-003-HUMIDITY-01-20261022T224500Z",
+    "issue_type": "humidity_threshold_boundary",
+    "expected_decision": "do_not_alert_at_exact_threshold",
+    "expected_severity": null,
+    "rationale": "Humidity equals the product maximum; the rule is strictly greater-than."
+  },
+  {
+    "truth_id": "GT-000014",
+    "scenario_id": "GAP-001",
+    "entity_type": "sensor_outage",
+    "entity_id": "OUT-2026-000001",
+    "issue_type": "sensor_outage",
+    "expected_decision": "raise_sensor_gap_alarm",
+    "expected_severity": "high",
+    "rationale": "Observed gap exceeds the 45-minute freshness threshold."
+  },
+  {
+    "truth_id": "GT-000015",
+    "scenario_id": "GAP-002",
+    "entity_type": "sensor_outage",
+    "entity_id": "OUT-2026-000002",
+    "issue_type": "sensor_outage",
+    "expected_decision": "raise_sensor_gap_alarm",
+    "expected_severity": "high",
+    "rationale": "Observed gap exceeds the 45-minute freshness threshold."
+  },
+  {
+    "truth_id": "GT-000016",
+    "scenario_id": "GAP-003",
+    "entity_type": "sensor_outage",
+    "entity_id": "OUT-2026-000003",
+    "issue_type": "sensor_outage",
+    "expected_decision": "raise_sensor_gap_alarm",
+    "expected_severity": "high",
+    "rationale": "Observed gap exceeds the 45-minute freshness threshold."
+  },
+  {
+    "truth_id": "GT-000017",
+    "scenario_id": "GAP-004",
+    "entity_type": "sensor_outage",
+    "entity_id": "OUT-2026-000004",
+    "issue_type": "reading_gap_treated_as_normal",
+    "expected_decision": "do_not_alert_at_exactly_45_minutes",
+    "expected_severity": null,
+    "rationale": "Observed gap is exactly 45 minutes, matching the strict >45-minute alert rule."
+  },
+  {
+    "truth_id": "GT-000018",
+    "scenario_id": "GAP-005",
+    "entity_type": "sensor_outage",
+    "entity_id": "OUT-2026-000005",
+    "issue_type": "reading_gap_treated_as_normal",
+    "expected_decision": "do_not_alert_at_exactly_45_minutes",
+    "expected_severity": null,
+    "rationale": "Observed gap is exactly 45 minutes, matching the strict >45-minute alert rule."
+  },
+  {
+    "truth_id": "GT-000019",
+    "scenario_id": "QUALITY-INVALID-001",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-001-TEMP-01-20261022T080000Z",
+    "issue_type": "invalid_reading",
+    "expected_decision": "exclude_from_risk_evaluation",
+    "expected_severity": null,
+    "rationale": "Reading quality is marked invalid; evaluation must ignore it."
+  },
+  {
+    "truth_id": "GT-000020",
+    "scenario_id": "DOOR-001",
+    "entity_type": "door_event",
+    "entity_id": "DOR-2026-000001",
+    "issue_type": "prolonged_door_open",
+    "expected_decision": "raise_door_alarm_and_check_temperature_recovery",
+    "expected_severity": "high",
+    "rationale": "Door remained open for 480 seconds; prolonged threshold is 180 seconds."
+  },
+  {
+    "truth_id": "GT-000021",
+    "scenario_id": "DOOR-TEMP-001",
+    "entity_type": "door_cycle",
+    "entity_id": "DCL-2026-000001",
+    "issue_type": "door_temperature_correlation",
+    "expected_decision": "link_door_opening_to_nearby_temperature_excursion",
+    "expected_severity": "high",
+    "rationale": "Door-open cycle and temperature excursion overlap in the same zone."
+  },
+  {
+    "truth_id": "GT-000022",
+    "scenario_id": "DOOR-002",
+    "entity_type": "door_event",
+    "entity_id": "DOR-2026-000003",
+    "issue_type": "prolonged_door_open",
+    "expected_decision": "raise_door_alarm_and_check_temperature_recovery",
+    "expected_severity": "high",
+    "rationale": "Door remained open for 660 seconds; prolonged threshold is 180 seconds."
+  },
+  {
+    "truth_id": "GT-000023",
+    "scenario_id": "DOOR-TEMP-002",
+    "entity_type": "door_cycle",
+    "entity_id": "DCL-2026-000002",
+    "issue_type": "door_temperature_correlation",
+    "expected_decision": "link_door_opening_to_nearby_temperature_excursion",
+    "expected_severity": "high",
+    "rationale": "Door-open cycle and temperature excursion overlap in the same zone."
+  },
+  {
+    "truth_id": "GT-000024",
+    "scenario_id": "DOOR-003",
+    "entity_type": "door_event",
+    "entity_id": "DOR-2026-000005",
+    "issue_type": "prolonged_door_open",
+    "expected_decision": "raise_door_alarm_and_check_temperature_recovery",
+    "expected_severity": "high",
+    "rationale": "Door remained open for 840 seconds; prolonged threshold is 180 seconds."
+  },
+  {
+    "truth_id": "GT-000025",
+    "scenario_id": "DOOR-TEMP-003",
+    "entity_type": "door_cycle",
+    "entity_id": "DCL-2026-000003",
+    "issue_type": "door_temperature_correlation",
+    "expected_decision": "link_door_opening_to_nearby_temperature_excursion",
+    "expected_severity": "high",
+    "rationale": "Door-open cycle and temperature excursion overlap in the same zone."
+  },
+  {
+    "truth_id": "GT-000026",
+    "scenario_id": "OCCUPANCY-BOUNDARY-001",
+    "entity_type": "sensor_reading",
+    "entity_id": "RDG-SNS-ZONE-WH-001-001-OCCUPANCY-01-20261022T233000Z",
+    "issue_type": "occupancy_threshold_boundary",
+    "expected_decision": "raise_occupancy_alarm_at_exactly_95_percent",
+    "expected_severity": "medium",
+    "rationale": "Occupancy is exactly 95%, and the threshold is inclusive."
+  },
+  {
+    "truth_id": "GT-000027",
+    "scenario_id": "INCOMPATIBLE-LOT-2026-000002",
+    "entity_type": "lot_zone_assignment",
+    "entity_id": "LZA-0000002",
+    "issue_type": "incompatible_zone",
+    "expected_decision": "raise_storage_mismatch_and_quarantine_or_move_lot",
+    "expected_severity": "high",
+    "rationale": "Lot requirement is incompatible with its assigned cold zone."
+  },
+  {
+    "truth_id": "GT-000028",
+    "scenario_id": "INCOMPATIBLE-LOT-2026-000036",
+    "entity_type": "lot_zone_assignment",
+    "entity_id": "LZA-0000034",
+    "issue_type": "incompatible_zone",
+    "expected_decision": "raise_storage_mismatch_and_quarantine_or_move_lot",
+    "expected_severity": "high",
+    "rationale": "Lot requirement is incompatible with its assigned cold zone."
+  },
+  {
+    "truth_id": "GT-000029",
+    "scenario_id": "INCOMPATIBLE-LOT-2026-000071",
+    "entity_type": "lot_zone_assignment",
+    "entity_id": "LZA-0000068",
+    "issue_type": "incompatible_zone",
+    "expected_decision": "raise_storage_mismatch_and_quarantine_or_move_lot",
+    "expected_severity": "high",
+    "rationale": "Lot requirement is incompatible with its assigned cold zone."
+  },
+  {
+    "truth_id": "GT-000030",
+    "scenario_id": "MISSING-LINK-engine:TEMP_HIGH:SNS-ZONE-WH-001-004-TEMP-01:RDG-SNS-ZONE-WH-001-004-TEMP-01-20261022T180000Z",
+    "entity_type": "alarm",
+    "entity_id": "ALM-2026-000001",
+    "issue_type": "alarm_missing_lot_link",
+    "expected_decision": "reconcile_from_event_time_and_zone",
+    "expected_severity": "high",
+    "rationale": "Alarm has no affected-lot bridge despite active inventory overlapping its zone and event time."
+  },
+  {
+    "truth_id": "GT-000031",
+    "scenario_id": "MISSING-LINK-engine:TEMP_LOW:SNS-ZONE-WH-003-003-TEMP-01:RDG-SNS-ZONE-WH-003-003-TEMP-01-20261022T181500Z",
+    "entity_type": "alarm",
+    "entity_id": "ALM-2026-000002",
+    "issue_type": "alarm_missing_lot_link",
+    "expected_decision": "reconcile_from_event_time_and_zone",
+    "expected_severity": "high",
+    "rationale": "Alarm has no affected-lot bridge despite active inventory overlapping its zone and event time."
+  },
+  {
+    "truth_id": "GT-000032",
+    "scenario_id": "MAPPING-001",
+    "entity_type": "sensor_zone_assignment",
+    "entity_id": "SZA-0000037",
+    "issue_type": "unjustified_sensor_mapping",
+    "expected_decision": "review_and_correct_active_zone_mapping",
+    "expected_severity": "medium",
+    "rationale": "Sensor has overlapping active zone mappings with no assignment rationale."
+  },
+  {
+    "truth_id": "GT-000033",
+    "scenario_id": "MAPPING-002",
+    "entity_type": "sensor_zone_assignment",
+    "entity_id": "SZA-0000038",
+    "issue_type": "unjustified_sensor_mapping",
+    "expected_decision": "review_and_correct_active_zone_mapping",
+    "expected_severity": "medium",
+    "rationale": "Sensor has overlapping active zone mappings with no assignment rationale."
+  }
+]

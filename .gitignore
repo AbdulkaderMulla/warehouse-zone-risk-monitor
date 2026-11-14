@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# macOS / editors
+.DS_Store
+.vscode/
+
+# Local SQLite databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Generated datasets and temporary outputs
+data/generated/
+work/
+outputs/

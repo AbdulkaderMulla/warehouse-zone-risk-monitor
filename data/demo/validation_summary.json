@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "scale": "starter",
+  "counts": {
+    "warehouse": 3,
+    "zone": 12,
+    "storage_requirement": 8,
+    "sensor": 36,
+    "sensor_zone_assignment": 38,
+    "door_cycle": 20,
+    "inventory_lot": 120,
+    "lot_zone_assignment": 111,
+    "sensor_outage": 5,
+    "sensor_reading": 2520,
+    "door_event": 40,
+    "alarm": 19,
+    "alarm_affected_lot": 102,
+    "inspection": 19,
+    "remediation": 19,
+    "remediation_affected_lot": 102,
+    "audit_event": 419
+  },
+  "foreign_key_violations": 0,
+  "arithmetic_reconciliation": "passed",
+  "lifecycle_transitions": "passed",
+  "unique_primary_keys": "passed",
+  "required_exception_coverage": {
+    "known_truth_rows": 33,
+    "incompatible_lot_cases": 3,
+    "unjustified_sensor_mapping_cases": 2,
+    "reading_gap_cases": 2,
+    "unlinked_alarm_cases": 2
+  },
+  "metrics": {
+    "alarm_workflow_coverage_pct": 100.0,
+    "alarms_with_missing_impact_links": 2,
+    "active_ambient_hot_zone_classes_with_lots": 2,
+    "door_event_type_counts": {
+      "ajar": 2,
+      "closed": 18,
+      "open": 20
+    },
+    "quality_flag_counts": {
+      "good": 2461,
+      "invalid": 4,
+      "suspect": 55
+    },
+    "door_temperature_links": 3,
+    "boundary_case_counts": {
+      "temperature_threshold_boundary": 2,
+      "humidity_threshold_boundary": 2,
+      "reading_gap_treated_as_normal": 2
+    }
+  },
+  "errors": []
+}

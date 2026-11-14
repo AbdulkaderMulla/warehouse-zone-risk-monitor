@@ -1,0 +1,20 @@
+inspection_id,alarm_id,zone_id,assigned_role,status,created_at,completed_at,findings
+INSP-2026-000001,ALM-2026-000001,ZONE-WH-001-004,quality_engineer,planned,2026-10-22T18:00:01Z,,
+INSP-2026-000002,ALM-2026-000002,ZONE-WH-003-003,maintenance_engineer,planned,2026-10-22T18:15:01Z,,
+INSP-2026-000003,ALM-2026-000003,ZONE-WH-002-004,plant_operator,in_progress,2026-10-22T18:30:01Z,,
+INSP-2026-000004,ALM-2026-000004,ZONE-WH-002-001,production_planner,completed,2026-10-22T18:45:01Z,2026-10-22T18:49:00Z,"Zone, sensor telemetry, and overlapping inventory reviewed."
+INSP-2026-000005,ALM-2026-000005,ZONE-WH-003-004,ot_it_administrator,completed,2026-10-22T19:00:01Z,2026-10-22T19:04:00Z,"Zone, sensor telemetry, and overlapping inventory reviewed."
+INSP-2026-000006,ALM-2026-000006,ZONE-WH-001-002,quality_engineer,planned,2026-10-22T18:00:01Z,,
+INSP-2026-000007,ALM-2026-000007,ZONE-WH-003-001,maintenance_engineer,planned,2026-10-22T18:15:01Z,,
+INSP-2026-000008,ALM-2026-000008,ZONE-WH-001-004,plant_operator,in_progress,2026-10-22T18:30:01Z,,
+INSP-2026-000009,ALM-2026-000009,ZONE-WH-003-003,production_planner,completed,2026-10-22T18:45:01Z,2026-10-22T18:49:00Z,"Zone, sensor telemetry, and overlapping inventory reviewed."
+INSP-2026-000010,ALM-2026-000010,ZONE-WH-001-002,ot_it_administrator,completed,2026-10-22T19:45:01Z,2026-10-22T19:49:00Z,"Zone, sensor telemetry, and overlapping inventory reviewed."
+INSP-2026-000011,ALM-2026-000011,ZONE-WH-003-001,quality_engineer,planned,2026-10-22T20:00:01Z,,
+INSP-2026-000012,ALM-2026-000012,ZONE-WH-001-004,maintenance_engineer,planned,2026-10-22T20:15:01Z,,
+INSP-2026-000013,ALM-2026-000013,ZONE-WH-001-004,plant_operator,in_progress,2026-10-22T17:55:01Z,,
+INSP-2026-000014,ALM-2026-000014,ZONE-WH-003-003,production_planner,completed,2026-10-22T18:10:01Z,2026-10-22T18:14:00Z,"Zone, sensor telemetry, and overlapping inventory reviewed."
+INSP-2026-000015,ALM-2026-000015,ZONE-WH-002-004,ot_it_administrator,completed,2026-10-22T18:25:01Z,2026-10-22T18:29:00Z,"Zone, sensor telemetry, and overlapping inventory reviewed."
+INSP-2026-000016,ALM-2026-000016,ZONE-WH-001-001,quality_engineer,planned,2026-10-22T23:30:01Z,,
+INSP-2026-000017,ALM-2026-000017,ZONE-WH-001-001,maintenance_engineer,planned,2026-10-22T23:45:01Z,,
+INSP-2026-000018,ALM-2026-000018,ZONE-WH-001-001,plant_operator,in_progress,2026-10-22T23:45:01Z,,
+INSP-2026-000019,ALM-2026-000019,ZONE-WH-001-001,production_planner,completed,2026-10-22T23:45:01Z,2026-10-22T23:49:00Z,"Zone, sensor telemetry, and overlapping inventory reviewed."

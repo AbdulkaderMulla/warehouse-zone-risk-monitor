@@ -1,0 +1,20 @@
+remediation_id,inspection_id,action_type,status,inventory_impact_quantity_units,created_at,completed_at,notes
+REM-2026-000001,INSP-2026-000001,adjust_setpoint,planned,0,2026-10-22T18:00:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000002,INSP-2026-000002,adjust_setpoint,planned,0,2026-10-22T18:15:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000003,INSP-2026-000003,adjust_setpoint,planned,1232,2026-10-22T18:30:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000004,INSP-2026-000004,adjust_setpoint,in_progress,1065,2026-10-22T18:45:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000005,INSP-2026-000005,adjust_setpoint,completed,303,2026-10-22T19:00:02Z,2026-10-22T19:18:00Z,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000006,INSP-2026-000006,adjust_setpoint,planned,935,2026-10-22T18:00:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000007,INSP-2026-000007,adjust_setpoint,planned,1786,2026-10-22T18:15:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000008,INSP-2026-000008,adjust_setpoint,planned,1417,2026-10-22T18:30:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000009,INSP-2026-000009,adjust_setpoint,in_progress,1711,2026-10-22T18:45:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000010,INSP-2026-000010,repair_sensor,completed,1180,2026-10-22T19:45:02Z,2026-10-22T20:03:00Z,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000011,INSP-2026-000011,repair_sensor,planned,1786,2026-10-22T20:00:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000012,INSP-2026-000012,repair_sensor,planned,2040,2026-10-22T20:15:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000013,INSP-2026-000013,repair_hvac,planned,1417,2026-10-22T17:55:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000014,INSP-2026-000014,repair_hvac,in_progress,1711,2026-10-22T18:10:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000015,INSP-2026-000015,repair_hvac,completed,1232,2026-10-22T18:25:02Z,2026-10-22T18:43:00Z,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000016,INSP-2026-000016,other,planned,2344,2026-10-22T23:30:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000017,INSP-2026-000017,move_lot,planned,399,2026-10-22T23:45:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000018,INSP-2026-000018,move_lot,planned,176,2026-10-22T23:45:02Z,,Corrective action planned; inventory impact follows alarm links.
+REM-2026-000019,INSP-2026-000019,move_lot,in_progress,228,2026-10-22T23:45:02Z,,Corrective action planned; inventory impact follows alarm links.

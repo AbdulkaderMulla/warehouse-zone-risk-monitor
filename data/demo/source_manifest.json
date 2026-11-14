@@ -1,0 +1,347 @@
+{
+  "project": "Warehouse Zone Risk Monitor",
+  "source": "Synthetic records generated locally; no external datasets used.",
+  "seed": 20261022,
+  "scale": "starter",
+  "generated_at": "2026-11-14T00:00:00Z",
+  "format": [
+    "csv",
+    "json",
+    "sql"
+  ],
+  "counts": {
+    "warehouse": 3,
+    "zone": 12,
+    "storage_requirement": 8,
+    "sensor": 36,
+    "sensor_zone_assignment": 38,
+    "door_cycle": 20,
+    "inventory_lot": 120,
+    "lot_zone_assignment": 111,
+    "sensor_outage": 5,
+    "sensor_reading": 2520,
+    "door_event": 40,
+    "alarm": 19,
+    "alarm_affected_lot": 102,
+    "inspection": 19,
+    "remediation": 19,
+    "remediation_affected_lot": 102,
+    "audit_event": 419
+  },
+  "files": {
+    "csv": {
+      "warehouse": {
+        "rows": 3,
+        "sha256": "e9380042323a4b7f6fc4b563b80b798dfbec5d0584bc07fd044663c15f00c329",
+        "file": "warehouse.csv"
+      },
+      "zone": {
+        "rows": 12,
+        "sha256": "03c3530c287c649424d337ab1314f8133aad0a62bd14b2487f61a02796b968ce",
+        "file": "zone.csv"
+      },
+      "storage_requirement": {
+        "rows": 8,
+        "sha256": "f1af76cdffef60d174093861d6c457ec46883dd731d33575631a438c3bb1187d",
+        "file": "storage_requirement.csv"
+      },
+      "sensor": {
+        "rows": 36,
+        "sha256": "7efbbef3ad44870c45a0ad1b9be19ffd17eecb6c6cf70dc4fdf72f2ad8d20955",
+        "file": "sensor.csv"
+      },
+      "sensor_zone_assignment": {
+        "rows": 38,
+        "sha256": "d07f9309e8cbb3f73f037e2943e6872f4c71495d1799f0a3af7a7c64b10eb66c",
+        "file": "sensor_zone_assignment.csv"
+      },
+      "door_cycle": {
+        "rows": 20,
+        "sha256": "7ea591481c0e875339a4b466861114e482f5b5cb71d74c35b6eae6fa261f1f7c",
+        "file": "door_cycle.csv"
+      },
+      "inventory_lot": {
+        "rows": 120,
+        "sha256": "03785d3b9f0c957c348cc785fb22a0754873b816a66fa6f071fabcf28b152c40",
+        "file": "inventory_lot.csv"
+      },
+      "lot_zone_assignment": {
+        "rows": 111,
+        "sha256": "88a1e37f04a565888d4e1515f3d3898e30cfe1409b0e6687eb3396e49062379f",
+        "file": "lot_zone_assignment.csv"
+      },
+      "sensor_outage": {
+        "rows": 5,
+        "sha256": "7bcade00934cceb502393cefad1926defe616f26a67523e0edf11581aef96f13",
+        "file": "sensor_outage.csv"
+      },
+      "sensor_reading": {
+        "rows": 2520,
+        "sha256": "39897e831cd40d579cd6fbf7b1ab803a52e215eb386ea305eac1fe46eb11e4ff",
+        "file": "sensor_reading.csv"
+      },
+      "door_event": {
+        "rows": 40,
+        "sha256": "2d2ed35ba4a9737e7f77d3feeb75553c58fbc7158be5588ee015367ae9063094",
+        "file": "door_event.csv"
+      },
+      "alarm": {
+        "rows": 19,
+        "sha256": "38e6dc61dd1a63b942a35bcf8652d98b38b514aad2576f12e6864d7f1af71e7c",
+        "file": "alarm.csv"
+      },
+      "alarm_affected_lot": {
+        "rows": 102,
+        "sha256": "191913c5e942ac9a854c247bc483ce38020c75cee6b2fd0d3462d91d06347a4c",
+        "file": "alarm_affected_lot.csv"
+      },
+      "inspection": {
+        "rows": 19,
+        "sha256": "6d4de4df7f2baa3b6c8d40caa975b75640c0728e78898844166b23443b28061f",
+        "file": "inspection.csv"
+      },
+      "remediation": {
+        "rows": 19,
+        "sha256": "ecd7b3ae78993905ccbf3b8ba86d1a7a2a084b1ba6e589c039be70bdc1199622",
+        "file": "remediation.csv"
+      },
+      "remediation_affected_lot": {
+        "rows": 102,
+        "sha256": "24e7dab77a81b33c3a7b246083b9edcb309fd0e5c89ec39fbb2f6f2f904352ed",
+        "file": "remediation_affected_lot.csv"
+      },
+      "audit_event": {
+        "rows": 419,
+        "sha256": "d7aee9eb42239a33c4f87327ce180a0e62956b24e4c6b057d8bbd6a810c31988",
+        "file": "audit_event.csv"
+      }
+    },
+    "json": {
+      "file": "dataset.json",
+      "sha256": "15fcc8a0e54c2d8d32945c02fbd3d1b0ef796e2b7bef81e4b219b7cf1d719c14"
+    },
+    "ground_truth_json": {
+      "file": "ground_truth.json",
+      "rows": 33,
+      "sha256": "272d68a5dbd13d6707b2f700b9f462747257fa3d0d8119f84fc5ff3955aa4d0b"
+    },
+    "sql": {
+      "file": "seed.sql",
+      "sha256": "05d16c5e0ece4364d3e091be501e8d62c9f06302f80e45fb654d014f7210ab3a"
+    },
+    "ground_truth_csv": {
+      "file": "ground_truth.csv",
+      "rows": 33,
+      "sha256": "b9fcfc3af7fe00f32f8299ea585922b9712e24778ca07e566f24696f5bfdbcf4"
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "scale": "starter",
+    "counts": {
+      "warehouse": 3,
+      "zone": 12,
+      "storage_requirement": 8,
+      "sensor": 36,
+      "sensor_zone_assignment": 38,
+      "door_cycle": 20,
+      "inventory_lot": 120,
+      "lot_zone_assignment": 111,
+      "sensor_outage": 5,
+      "sensor_reading": 2520,
+      "door_event": 40,
+      "alarm": 19,
+      "alarm_affected_lot": 102,
+      "inspection": 19,
+      "remediation": 19,
+      "remediation_affected_lot": 102,
+      "audit_event": 419
+    },
+    "foreign_key_violations": 0,
+    "arithmetic_reconciliation": "passed",
+    "lifecycle_transitions": "passed",
+    "unique_primary_keys": "passed",
+    "required_exception_coverage": {
+      "known_truth_rows": 33,
+      "incompatible_lot_cases": 3,
+      "unjustified_sensor_mapping_cases": 2,
+      "reading_gap_cases": 2,
+      "unlinked_alarm_cases": 2
+    },
+    "metrics": {
+      "alarm_workflow_coverage_pct": 100.0,
+      "alarms_with_missing_impact_links": 2,
+      "active_ambient_hot_zone_classes_with_lots": 2,
+      "door_event_type_counts": {
+        "ajar": 2,
+        "closed": 18,
+        "open": 20
+      },
+      "quality_flag_counts": {
+        "good": 2461,
+        "invalid": 4,
+        "suspect": 55
+      },
+      "door_temperature_links": 3,
+      "boundary_case_counts": {
+        "temperature_threshold_boundary": 2,
+        "humidity_threshold_boundary": 2,
+        "reading_gap_treated_as_normal": 2
+      }
+    },
+    "errors": []
+  },
+  "ground_truth_file": "ground_truth.csv",
+  "ground_truth_is_operational_input": false,
+  "reproducibility": {
+    "passed": true,
+    "first_run": {
+      "warehouse": {
+        "rows": 3,
+        "sha256": "e9380042323a4b7f6fc4b563b80b798dfbec5d0584bc07fd044663c15f00c329"
+      },
+      "zone": {
+        "rows": 12,
+        "sha256": "03c3530c287c649424d337ab1314f8133aad0a62bd14b2487f61a02796b968ce"
+      },
+      "storage_requirement": {
+        "rows": 8,
+        "sha256": "f1af76cdffef60d174093861d6c457ec46883dd731d33575631a438c3bb1187d"
+      },
+      "sensor": {
+        "rows": 36,
+        "sha256": "7efbbef3ad44870c45a0ad1b9be19ffd17eecb6c6cf70dc4fdf72f2ad8d20955"
+      },
+      "sensor_zone_assignment": {
+        "rows": 38,
+        "sha256": "d07f9309e8cbb3f73f037e2943e6872f4c71495d1799f0a3af7a7c64b10eb66c"
+      },
+      "door_cycle": {
+        "rows": 20,
+        "sha256": "7ea591481c0e875339a4b466861114e482f5b5cb71d74c35b6eae6fa261f1f7c"
+      },
+      "inventory_lot": {
+        "rows": 120,
+        "sha256": "03785d3b9f0c957c348cc785fb22a0754873b816a66fa6f071fabcf28b152c40"
+      },
+      "lot_zone_assignment": {
+        "rows": 111,
+        "sha256": "88a1e37f04a565888d4e1515f3d3898e30cfe1409b0e6687eb3396e49062379f"
+      },
+      "sensor_outage": {
+        "rows": 5,
+        "sha256": "7bcade00934cceb502393cefad1926defe616f26a67523e0edf11581aef96f13"
+      },
+      "sensor_reading": {
+        "rows": 2520,
+        "sha256": "39897e831cd40d579cd6fbf7b1ab803a52e215eb386ea305eac1fe46eb11e4ff"
+      },
+      "door_event": {
+        "rows": 40,
+        "sha256": "2d2ed35ba4a9737e7f77d3feeb75553c58fbc7158be5588ee015367ae9063094"
+      },
+      "alarm": {
+        "rows": 19,
+        "sha256": "38e6dc61dd1a63b942a35bcf8652d98b38b514aad2576f12e6864d7f1af71e7c"
+      },
+      "alarm_affected_lot": {
+        "rows": 102,
+        "sha256": "191913c5e942ac9a854c247bc483ce38020c75cee6b2fd0d3462d91d06347a4c"
+      },
+      "inspection": {
+        "rows": 19,
+        "sha256": "6d4de4df7f2baa3b6c8d40caa975b75640c0728e78898844166b23443b28061f"
+      },
+      "remediation": {
+        "rows": 19,
+        "sha256": "ecd7b3ae78993905ccbf3b8ba86d1a7a2a084b1ba6e589c039be70bdc1199622"
+      },
+      "remediation_affected_lot": {
+        "rows": 102,
+        "sha256": "24e7dab77a81b33c3a7b246083b9edcb309fd0e5c89ec39fbb2f6f2f904352ed"
+      },
+      "audit_event": {
+        "rows": 419,
+        "sha256": "d7aee9eb42239a33c4f87327ce180a0e62956b24e4c6b057d8bbd6a810c31988"
+      },
+      "ground_truth": {
+        "rows": 33,
+        "sha256": "b9fcfc3af7fe00f32f8299ea585922b9712e24778ca07e566f24696f5bfdbcf4"
+      }
+    },
+    "second_run": {
+      "warehouse": {
+        "rows": 3,
+        "sha256": "e9380042323a4b7f6fc4b563b80b798dfbec5d0584bc07fd044663c15f00c329"
+      },
+      "zone": {
+        "rows": 12,
+        "sha256": "03c3530c287c649424d337ab1314f8133aad0a62bd14b2487f61a02796b968ce"
+      },
+      "storage_requirement": {
+        "rows": 8,
+        "sha256": "f1af76cdffef60d174093861d6c457ec46883dd731d33575631a438c3bb1187d"
+      },
+      "sensor": {
+        "rows": 36,
+        "sha256": "7efbbef3ad44870c45a0ad1b9be19ffd17eecb6c6cf70dc4fdf72f2ad8d20955"
+      },
+      "sensor_zone_assignment": {
+        "rows": 38,
+        "sha256": "d07f9309e8cbb3f73f037e2943e6872f4c71495d1799f0a3af7a7c64b10eb66c"
+      },
+      "door_cycle": {
+        "rows": 20,
+        "sha256": "7ea591481c0e875339a4b466861114e482f5b5cb71d74c35b6eae6fa261f1f7c"
+      },
+      "inventory_lot": {
+        "rows": 120,
+        "sha256": "03785d3b9f0c957c348cc785fb22a0754873b816a66fa6f071fabcf28b152c40"
+      },
+      "lot_zone_assignment": {
+        "rows": 111,
+        "sha256": "88a1e37f04a565888d4e1515f3d3898e30cfe1409b0e6687eb3396e49062379f"
+      },
+      "sensor_outage": {
+        "rows": 5,
+        "sha256": "7bcade00934cceb502393cefad1926defe616f26a67523e0edf11581aef96f13"
+      },
+      "sensor_reading": {
+        "rows": 2520,
+        "sha256": "39897e831cd40d579cd6fbf7b1ab803a52e215eb386ea305eac1fe46eb11e4ff"
+      },
+      "door_event": {
+        "rows": 40,
+        "sha256": "2d2ed35ba4a9737e7f77d3feeb75553c58fbc7158be5588ee015367ae9063094"
+      },
+      "alarm": {
+        "rows": 19,
+        "sha256": "38e6dc61dd1a63b942a35bcf8652d98b38b514aad2576f12e6864d7f1af71e7c"
+      },
+      "alarm_affected_lot": {
+        "rows": 102,
+        "sha256": "191913c5e942ac9a854c247bc483ce38020c75cee6b2fd0d3462d91d06347a4c"
+      },
+      "inspection": {
+        "rows": 19,
+        "sha256": "6d4de4df7f2baa3b6c8d40caa975b75640c0728e78898844166b23443b28061f"
+      },
+      "remediation": {
+        "rows": 19,
+        "sha256": "ecd7b3ae78993905ccbf3b8ba86d1a7a2a084b1ba6e589c039be70bdc1199622"
+      },
+      "remediation_affected_lot": {
+        "rows": 102,
+        "sha256": "24e7dab77a81b33c3a7b246083b9edcb309fd0e5c89ec39fbb2f6f2f904352ed"
+      },
+      "audit_event": {
+        "rows": 419,
+        "sha256": "d7aee9eb42239a33c4f87327ce180a0e62956b24e4c6b057d8bbd6a810c31988"
+      },
+      "ground_truth": {
+        "rows": 33,
+        "sha256": "b9fcfc3af7fe00f32f8299ea585922b9712e24778ca07e566f24696f5bfdbcf4"
+      }
+    }
+  }
+}

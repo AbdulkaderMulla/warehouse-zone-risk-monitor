@@ -1,0 +1,13 @@
+zone_id,warehouse_id,name,zone_type,capacity_pallets,lifecycle_state,effective_from,effective_to
+ZONE-WH-001-001,WH-001,Zone 001,cold,110,active,2025-01-01T00:00:00Z,
+ZONE-WH-001-002,WH-001,Zone 002,frozen,120,active,2025-01-01T00:00:00Z,
+ZONE-WH-001-003,WH-001,Zone 003,ambient,130,active,2025-01-01T00:00:00Z,
+ZONE-WH-001-004,WH-001,Zone 004,hot,140,active,2025-01-01T00:00:00Z,
+ZONE-WH-002-001,WH-002,Zone 001,cold,110,active,2025-01-01T00:00:00Z,
+ZONE-WH-002-002,WH-002,Zone 002,frozen,120,active,2025-01-01T00:00:00Z,
+ZONE-WH-002-003,WH-002,Zone 003,ambient,130,active,2025-01-01T00:00:00Z,
+ZONE-WH-002-004,WH-002,Zone 004,hot,140,active,2025-01-01T00:00:00Z,
+ZONE-WH-003-001,WH-003,Zone 001,cold,110,active,2025-01-01T00:00:00Z,
+ZONE-WH-003-002,WH-003,Zone 002,frozen,120,active,2025-01-01T00:00:00Z,
+ZONE-WH-003-003,WH-003,Zone 003,ambient,130,active,2025-01-01T00:00:00Z,
+ZONE-WH-003-004,WH-003,Zone 004,hot,140,active,2025-01-01T00:00:00Z,
